@@ -68,7 +68,7 @@ const thoughtController = {
     Thought.findOneAndDelete({ _id: params.thoughtId })
       .then(deletedThought => {
         if (!deletedThought) {
-          return res.status(404).json({ message: 'That id is not correct, the internet never forgets!' });
+          return res.status(404).json({ message: '::Charles Xavier has successfully removed that thought::' });
         }
         return User.findOneAndUpdate(
           { _id: params.userId },
