@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Govepitr/Social-Network-API.git"
+  },
+  "author": "Dan Arbelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Govepitr/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Govepitr/Social-Network-API#readme"
+}
