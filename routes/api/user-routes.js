@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const Reaction = require('./thought-routes');
 
 const {
     getAllUsers,
