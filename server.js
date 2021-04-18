@@ -21,4 +21,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-
 // Use this to log mongo queries being executed!
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`${PORT} has become self-aware! 🦾`));
+app.listen(PORT, () => console.log(` The T-${PORT} has become self-aware! 🦾`));
